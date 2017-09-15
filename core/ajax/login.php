@@ -7,6 +7,6 @@ if(!AJAX_REQUEST) {die('Why did you come here? (*-*)');}
 require_once('../classes/user.Class.php');
 // create new user bject
 $User = new User;
-// chck the data
+// check the data
 echo $User->CheckData($_POST['email'], $_POST['pass']);
 ?>
